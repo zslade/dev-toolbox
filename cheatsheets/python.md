@@ -3,7 +3,7 @@
 ## uv
 
 ```bash
-uv venv # create venv, lock and install dependencies
+uv sync # create venv, lock and install dependencies
 uv add --dev package_name # add package to pyproject.toml
 uv run main.py # run a script
 uv run python # run a python REPL
