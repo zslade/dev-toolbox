@@ -27,3 +27,11 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+## Execution
+
+```bash
+python3 python_script.py # run python script from terminal
+python3 # open a REPL
+exit() or Ctrl + D # to exit REPL
+```
