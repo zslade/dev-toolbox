@@ -32,6 +32,7 @@ pip install -r requirements.txt
 
 ```bash
 python3 python_script.py # run python script from terminal
+python3 -c "import sys; print('\n'.join(sys.path))" # run string as python code
 python3 # open a REPL
 exit() or Ctrl + D # to exit REPL
 ```
